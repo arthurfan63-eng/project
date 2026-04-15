@@ -4,7 +4,7 @@ float sliderY;
 float floatie;
 PImage walt;
 float ww;
-
+boolean waltOn;
 
 
 
@@ -114,10 +114,23 @@ void mouseReleased(){
   clikphonktion(150,170,0);
   
   
-  if (mouseY <400 
-  
+//  if (mouseY <400 
+  if(mouseX > 400 && mouseY< 50 && mouseX < 550 && mouseY < 550){
+    
+    
+//  }
+
+
+//  if(walterOn == false){
+    
+    
+//  }
   
   
 }
-  
+
+
+
+
+
   
